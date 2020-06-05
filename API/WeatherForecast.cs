@@ -1,6 +1,6 @@
 using System;
 
-namespace FaceBookClone
+namespace API
 {
     public class WeatherForecast
     {
