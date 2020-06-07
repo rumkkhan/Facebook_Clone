@@ -1,0 +1,11 @@
+C:\FaceBookClone\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+C:\FaceBookClone\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+C:\FaceBookClone\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+C:\FaceBookClone\Persistence\bin\Debug\netstandard2.0\Domain.dll
+C:\FaceBookClone\Persistence\bin\Debug\netstandard2.0\Domain.pdb
+C:\FaceBookClone\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
+C:\FaceBookClone\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+C:\FaceBookClone\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+C:\FaceBookClone\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
+C:\FaceBookClone\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+C:\FaceBookClone\Persistence\obj\Debug\netstandard2.0\Persistence.pdb

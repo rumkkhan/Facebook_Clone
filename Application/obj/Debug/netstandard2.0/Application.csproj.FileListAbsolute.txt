@@ -1,0 +1,13 @@
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Application.deps.json
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Application.dll
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Application.pdb
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Domain.dll
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Persistence.dll
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Domain.pdb
+C:\FaceBookClone\Application\bin\Debug\netstandard2.0\Persistence.pdb
+C:\FaceBookClone\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\FaceBookClone\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\FaceBookClone\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+C:\FaceBookClone\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
+C:\FaceBookClone\Application\obj\Debug\netstandard2.0\Application.dll
+C:\FaceBookClone\Application\obj\Debug\netstandard2.0\Application.pdb
