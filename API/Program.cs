@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Persistence;
 
 namespace API
 {
@@ -21,8 +22,9 @@ namespace API
                var servies = scope.ServiceProvider;
                try
                {
-                   var context = servies.GetRequiredService<DbContext>();
+                   var context = servies.GetRequiredService<DataContext>();
                     context.Database.Migrate();
+                    Seed.SeedData(context);
 
                }
                catch (Exception ex)

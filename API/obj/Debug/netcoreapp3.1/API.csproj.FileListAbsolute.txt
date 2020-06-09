@@ -43,3 +43,5 @@ C:\FaceBookClone\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\Sys
 C:\FaceBookClone\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\FaceBookClone\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\FaceBookClone\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\FaceBookClone\API\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\FaceBookClone\API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
