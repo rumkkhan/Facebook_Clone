@@ -5630,11 +5630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FaceBookClone\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "c:\\FaceBookClone\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\FaceBookClone\\Persistence\\Persistence.csproj",
+      "projectPath": "c:\\FaceBookClone\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Ramzan\\.nuget\\packages\\",
-      "outputPath": "C:\\FaceBookClone\\Persistence\\obj\\",
+      "outputPath": "c:\\FaceBookClone\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5653,8 +5653,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\FaceBookClone\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\FaceBookClone\\Domain\\Domain.csproj"
+            "c:\\FaceBookClone\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\FaceBookClone\\Domain\\Domain.csproj"
             }
           }
         }
