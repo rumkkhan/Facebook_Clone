@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\FaceBookClone\\Persistence\\Persistence.csproj": {}
+    "C:\\FaceBookClone\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "c:\\FaceBookClone\\Domain\\Domain.csproj": {
+    "C:\\FaceBookClone\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\FaceBookClone\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\FaceBookClone\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\FaceBookClone\\Domain\\Domain.csproj",
+        "projectPath": "C:\\FaceBookClone\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Ramzan\\.nuget\\packages\\",
-        "outputPath": "c:\\FaceBookClone\\Domain\\obj\\",
+        "outputPath": "C:\\FaceBookClone\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "c:\\FaceBookClone\\Persistence\\Persistence.csproj": {
+    "C:\\FaceBookClone\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\FaceBookClone\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\FaceBookClone\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\FaceBookClone\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\FaceBookClone\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Ramzan\\.nuget\\packages\\",
-        "outputPath": "c:\\FaceBookClone\\Persistence\\obj\\",
+        "outputPath": "C:\\FaceBookClone\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -92,8 +92,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\FaceBookClone\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\FaceBookClone\\Domain\\Domain.csproj"
+              "C:\\FaceBookClone\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\FaceBookClone\\Domain\\Domain.csproj"
               }
             }
           }
