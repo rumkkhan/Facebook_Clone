@@ -31,20 +31,19 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors(options =>
+                {
+                    options.AddPolicy("CorsPolicy",
+                        builder => builder.AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
+                });
                 services.AddDbContext<DataContext>(opt =>
                 {
                     opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
                 });
-                services.AddCors(opt => 
-                {
-                    opt.AddPolicy("CorsPolicy", policy =>
-                    {
-                            policy.AllowAnyHeader()
-                                  .AllowAnyMethod()
-                                  .AllowAnyOrigin()
-                                  .AllowCredentials();
-                    });
-                });
+               
                  services.AddAutoMapper(typeof(Startup));
                  services.AddSwaggerGen(c =>
                 {
@@ -71,10 +70,13 @@ namespace API
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "FaceBook Clone");
             });
+           
            // app.UseMvc();
             app.UseRouting();
 
             app.UseAuthorization();
+             app.UseCors("CorsPolicy");
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
