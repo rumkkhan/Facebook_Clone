@@ -5,7 +5,6 @@ import {Menu, Container,Button} from 'semantic-ui-react';
  const Navbar = () => 
  {
     return (
-
         <Menu inverted fixed="top">
             <Container>
                  <Menu.Item header> 
