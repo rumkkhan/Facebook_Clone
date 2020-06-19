@@ -1,18 +1,12 @@
-import React from 'react'
+import React from 'react';
+import ActivityDashboard from './Dashboard/activityDashboard';
 
- const ActivityContainer =()  =>{
-     
+ const ActivityContainer =(props)  =>{
+
     return (
         <div>
-            activity
-            asdf
-            asdf
-            asdf
-            <p>asdf</p>
-            <p>asdf</p>
-            <p>asdf</p>
-            <p>asdf</p>
-
+          
+            <ActivityDashboard {...props} />
         </div>
     )
 }

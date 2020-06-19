@@ -1,7 +1,7 @@
 import {GET_ALL_ACTIVITY} from './type';
 
 const INITIAL_STATE = {
-    Activities: {},
+    Activities: [],
     Processing: false,
 }
 const  ActivityReducer = (state = INITIAL_STATE,action) => {

@@ -12,7 +12,7 @@ class index extends Component {
         console.log(this.props)
         return (
             <div>
-                <ActivityContainer />
+                <ActivityContainer {...this.props}/>
             </div>
         )
     }
