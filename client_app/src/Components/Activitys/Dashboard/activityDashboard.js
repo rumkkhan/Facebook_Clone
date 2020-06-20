@@ -4,20 +4,20 @@ import ActivityList from './activityList';
 import ActivityDetails from '../Details/activityDetails';
 import ActivityForm from '../ActivityForm/activityForm';
 
- function ActivityDashboard(props) {
-     let activity =props.activity.Activities
-     console.log(activity, '-')
+function ActivityDashboard(props) {
+    let activity =props.activity.Activities
+    console.log(activity, '-')
 
-    return (
-        <Grid style={{marginTop:"50px"}}>
-            <Grid.Column width={10}>
-              <ActivityList activity={activity}/>
-            </Grid.Column>
-            <Grid.Column width={6}>
-                <ActivityDetails />
-                <ActivityForm />
-            </Grid.Column>
-        </Grid>
-    )
+   return (
+       <Grid style={{marginTop:"50px"}}>
+           <Grid.Column width={10}>
+             <ActivityList activity={activity}/>
+           </Grid.Column>
+           <Grid.Column width={6}>
+               <ActivityDetails />
+               <ActivityForm />
+           </Grid.Column>
+       </Grid>
+   )
 }
 export default ActivityDashboard;
