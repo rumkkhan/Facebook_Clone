@@ -7,7 +7,7 @@ import ActivityForm from '../ActivityForm/activityForm';
 function ActivityDashboard(props) {
     let activity =props.activity.Activities
     console.log(activity, '-')
-
+ 
    return (
        <Grid style={{marginTop:"50px"}}>
            <Grid.Column width={10}>
